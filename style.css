@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    min-height: 60vh;
+    padding-block: 12rem;
+
+}
+
+
+
+.container {
+
+    border: 2px solid maroon;
+
+
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 30vh;
+}
+
+
+.container section {
+    width: 80%;
+}
+
+#btn {
+
+    cursor: pointer;
+}
